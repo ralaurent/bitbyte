@@ -15,7 +15,7 @@ function Auth() {
         let roles = [2000]
         let accessToken = "ZHaCRwaf-W1y=t6YaaMgiYFhwmqu2WOGGq1OWw6ISy872RtzXmMI3?ghNEDpzn8//FExTDxFAvGsqDCEgEIz2=oouZotlv19wH3p18?wdtIWy69s?hdu7rq-U0a!-mZCY0wOo5jFx2PVz36ar5nd=C3Qo=gZ?dTOVi7QjML?sdGSM0C!Bqxo39NzKMeVgEi71=F=w8cBcCGUcs!he?pL7uYGNqCHajySylVL1egZ/TwPSB?G9RaNoGqs8-2/uDmV"
         let csrfToken = "BW=dJRUfHRcJG00BpDjbdjPCGKl-blIrvP?lWgMNDx95dVIvjAEbdA64gG6g9ig/W-pu7VKzKqt2CgsIHbuRaRu-/3ojgXdoxSiAW2XlQmT1wedFL6hqBIbOKSwfnyKZnE3/oyyXUJivrw/GqSt5wLNETJfGOWUvDDez!DzCI?v2SkmEO/Kuq37jjOf5s0G9bO6-ufpGRvle-ivWMUzYcULyw9VIvbaSkcO7ntbpY0/aoqlog8Ds=zp?a2O0CxNh"
-        setAuth({ user: user, roles: roles, accessToken: accessToken, csrfToken: csrfToken })
+        setAuth({ user, roles, accessToken, csrfToken })
         setIsVisible(false)
     }
     
